@@ -55,6 +55,7 @@
                         <include>**/*.ico</include>
                         <include>**/*.css</include>
                         <include>**/*.htm</include>
+                        <include>redir.htm</include>
                     </includes>
                 </fileSet>
                 <fileSet filtered="true" packaged="true" encoding="UTF-8">

@@ -9,7 +9,7 @@
     </parent>
     <artifactId>${artifactId}</artifactId>
     <version>${version}</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>${rootArtifactId} Domain Model</name>
 
     <dependencies>

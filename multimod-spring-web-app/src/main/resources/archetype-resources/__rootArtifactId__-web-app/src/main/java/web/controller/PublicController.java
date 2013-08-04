@@ -12,6 +12,6 @@ public final class PublicController {
     @RequestMapping("/index.html")
     public String index() {
         log.trace("Retrieving index.html");
-        return "index";
+        return "view.index";
     }
 }
