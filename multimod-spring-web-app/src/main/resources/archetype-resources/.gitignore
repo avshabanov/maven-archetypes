@@ -1,0 +1,11 @@
+target
+
+# Intellij Idea
+.idea
+*.iml
+*.ipr
+*.iws
+
+.DS_Store
+*.swp
+*~.nib
