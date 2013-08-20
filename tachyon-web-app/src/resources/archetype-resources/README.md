@@ -1,0 +1,1 @@
+${artifactId} is a multimodular spring-driven web application based on the tachyon maven artifact.

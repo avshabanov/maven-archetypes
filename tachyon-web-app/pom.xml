@@ -10,11 +10,11 @@
     </parent>
 
     <groupId>com.truward.maven.archetypes</groupId>
-    <artifactId>multimod-spring-web-app</artifactId>
+    <artifactId>tachyon-web-app</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
-    <name>Multimodular Spring Web Application</name>
-    <description>Minimalistic Multimodular Spring Web Application with two profiles: development and production</description>
+    <name>Tachyon Web Application</name>
+    <description>Minimalistic Multimodular Spring Web Application</description>
 
     <licenses>
         <license>
