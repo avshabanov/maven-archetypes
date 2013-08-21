@@ -44,13 +44,6 @@
     <dependencyManagement>
 
         <dependencies>
-            <!-- Child Projects -->
-            <dependency>
-                <groupId>com.truward.myteam</groupId>
-                <artifactId>${artifactId}-domain</artifactId>
-                <version>${version}</version>
-            </dependency>
-
             <!-- Logging -->
             <dependency>
                 <groupId>org.slf4j</groupId>

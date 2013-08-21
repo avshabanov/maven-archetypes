@@ -38,14 +38,6 @@ public class WebConfig extends WebMvcConfigurationSupport {
     */
 
     @Bean
-    public ReloadableResourceBundleMessageSource messageSource() {
-        final ReloadableResourceBundleMessageSource messageSource = new ReloadableResourceBundleMessageSource();
-        messageSource.setBasename("classpath:messages");
-        messageSource.setDefaultEncoding("UTF-8");
-        return messageSource;
-    }
-
-    @Bean
     public ViewResolver viewResolver() {
         final UrlBasedViewResolver viewResolver = new UrlBasedViewResolver();
         viewResolver.setViewClass(JstlView.class);
