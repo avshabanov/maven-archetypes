@@ -13,8 +13,8 @@
         git init; git add -A; git commit -m "Initial import"
     -->
     <scm>
-        <connection>scm:git:git://${project.baseUri}</connection>
-        <url>scm:git:git://${project.baseUri}</url>
+        <connection>scm:git://${project.baseUri}</connection>
+        <url>scm:git://${project.baseUri}</url>
     </scm>
 
     <properties>

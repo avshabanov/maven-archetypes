@@ -2,7 +2,7 @@
 <%@ attribute name="errorUniform" required="false" type="java.lang.String" %>
 <%@ attribute name="errorDescription" required="false" type="java.lang.String" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="tag" tagdir="/WEB-INF/tag" %>
+<%@ taglib prefix="tag" tagdir="/WEB-INF/tags" %>
 
 <tag:pageWrapper title="${errorUniform}">
     <div class="well">

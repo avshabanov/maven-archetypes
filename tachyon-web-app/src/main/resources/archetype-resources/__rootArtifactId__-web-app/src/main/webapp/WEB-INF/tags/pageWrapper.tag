@@ -1,7 +1,7 @@
 <%@ tag body-content="scriptless" isELIgnored="false" %>
 <%@ attribute name="title" required="true" type="java.lang.String" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="tag" tagdir="/WEB-INF/tag" %>
+<%@ taglib prefix="tag" tagdir="/WEB-INF/tags" %>
 
 <!DOCTYPE html>
 <html>
@@ -19,7 +19,9 @@
 
 <body>
 
+<div class="container">
 <jsp:doBody/>
+</div>
 
 </body>
 </html>
