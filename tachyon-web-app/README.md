@@ -9,5 +9,5 @@ Designed as a RIA template, but may be used for arbitrary application (i.e. with
 ## How to generate
 
 ```
-mvn archetype:generate -DarchetypeGroupId=com.truward.maven.archetypes -DarchetypeArtifactId=tachyon-web-app -DarchetypeVersion=1.0 -DgroupId=org.gnu -DartifactId=smile -Dversion=1.0-SNAPSHOT
+mvn archetype:generate -DarchetypeGroupId=com.truward.maven.archetypes -DarchetypeArtifactId=tachyon-web-app -DarchetypeVersion=1.1 -DgroupId=org.gnu -DartifactId=smile -Dversion=1.0-SNAPSHOT
 ```

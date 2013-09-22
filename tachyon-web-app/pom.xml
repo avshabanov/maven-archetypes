@@ -11,7 +11,7 @@
 
     <groupId>com.truward.maven.archetypes</groupId>
     <artifactId>tachyon-web-app</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <packaging>jar</packaging>
     <name>Tachyon Web Application</name>
     <description>Minimalistic Multimodular Spring Web Application</description>

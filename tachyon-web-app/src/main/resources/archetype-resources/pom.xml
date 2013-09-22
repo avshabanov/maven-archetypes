@@ -11,6 +11,7 @@
     <!--
         Specify correct SCM URLs to make build number work, as a first step you may just run:
         git init; git add -A; git commit -m "Initial import"
+        Use URLs like this for github: scm:git:git@github.com:avshabanov/java-samples.git
     -->
     <scm>
         <connection>scm:git://${project.baseUri}</connection>
@@ -380,6 +381,12 @@
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.3.2</version>
+            </plugin>
+
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>2.5.1</version>
